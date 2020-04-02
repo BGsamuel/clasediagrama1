@@ -23,12 +23,9 @@ namespace ConsoleApp3
                     het = he - 8;
                     phe = ph * 2 * 8 + ph * 3 * het;
                 }
-                else
-                {
-                     phe = ph * 2 * he;
-                }
-                 pt = ph * 40 + phe; 
-
+                else               
+                     phe = ph * 2 * he;               
+                 pt = ph * 40 + phe;
             }
             else
             {
